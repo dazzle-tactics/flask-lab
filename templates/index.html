@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cheese</title>
+    <h1> Order list</h1>
+    {% for order in activeOrders%}
+    <div>
+        <p>
+            <br><u>Order {{order.order_number}}</u>
+            <!-- <br><b>Customer:</b>{{order.customer_name}} 
+            <br><b>Date:</b>{{order.order_date}} 
+            <br><b>Quantity:</b>{{order.quantity}} 
+            <br><b>Dish:</b> {{order.dish}} -->
+        </p>
+    </div>
+    {% endfor %}
+</head>
+<body>
+    
+</body>
+</html>
